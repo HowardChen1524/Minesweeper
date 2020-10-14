@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cornez.shades" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityGame"
+            android:screenOrientation="sensor"
+            android:parentActivityName=".MyActivity">
+        </activity>
+        <activity android:name=".ActivityRecord"
+            android:screenOrientation="sensor"
+            android:parentActivityName=".MyActivity">
+        </activity>
+        <activity android:name=".ActivityAbout"
+            android:screenOrientation="sensor"
+            android:parentActivityName=".MyActivity">
+        </activity>
+        <activity android:name=".ActivityHelp"
+            android:screenOrientation="sensor"
+            android:parentActivityName=".MyActivity">
+        </activity>
+        <!-- SECOND ACTIVITY TO DISPLAY DETAIL INFORMATION -->
+        <activity
+            android:name=".InformationActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MyActivity" />
+        </activity>
+        <activity android:name=".inputRecord"
+            android:screenOrientation="sensor"
+            android:parentActivityName=".MyActivity">
+        </activity>
+    </application>
+
+</manifest>

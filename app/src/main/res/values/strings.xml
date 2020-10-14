@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">lab8</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- SHADE LIST COLOR -->
+    <string name="gold">GOLD</string>
+    <string name="blue">BLUE</string>
+    <string name="plum">PLUM</string>
+
+    <!-- SHADE DETAIL INFORMATION -->
+    <string name="plum_is">Plum is a deep purple color. It is used in weddings. </string>
+    <string name="blue_is">Blue is the color of peace and trust.</string>
+    <string name="gold_is">Gold is associated with sunshine and knowledge.</string>
+
+    <string name="empty"></string>
+    <string name="win">You are win!</string>
+    <string name="helptit">HELP</string>
+    <string name="help">\n這是一款單人的電腦遊戲。遊戲目標是找出所有沒有地雷的方格，完成遊戲；要是按了有地雷的方格，遊戲失敗。(Wiki)\n\n下一版本：遊戲將計算完成時間前五名。</string>
+    <string name="lose">You are lose!</string>
+    <string name="abouttit">About the Game</string>
+    <string name="aboutthegame">\n本程式由\n\n1061524 陳顥元\n1061525 祁鈞輔\n\n製作</string>
+    <string name="recordTitle">Record</string>
+    <string name="record">No record</string>
+</resources>
